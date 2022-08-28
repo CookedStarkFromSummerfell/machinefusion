@@ -11,26 +11,25 @@ public class ConfigManager {
     public static final Client CLIENT;
     public static class Common {
 
-        public static ForgeConfigSpec.BooleanValue enableBatteryLifespan;
-        public static ForgeConfigSpec.BooleanValue enableTinGeneration;
-        public static ForgeConfigSpec.IntValue tinGenerationWeight;
-        public static ForgeConfigSpec.BooleanValue enableAluminumGeneration;
-        public static ForgeConfigSpec.IntValue aluminumGenerationWeight;
-        public static ForgeConfigSpec.BooleanValue enableLeadGeneration;
-        public static ForgeConfigSpec.IntValue leadGenerationWeight;
+        public ForgeConfigSpec.BooleanValue enableBatteryLifespan;
+        public ForgeConfigSpec.IntValue tinGenerationWeight;
+        public ForgeConfigSpec.IntValue smallTinGenerationWeight;
+        public ForgeConfigSpec.IntValue aluminumGenerationWeight;
+        public ForgeConfigSpec.IntValue smallAluminumGenerationWeight;
+        public ForgeConfigSpec.IntValue leadGenerationWeight;
+        public ForgeConfigSpec.IntValue smallLeadGenerationWeight;
+
 
         public Common(ForgeConfigSpec.Builder builder) {
             enableBatteryLifespan = builder.translation("config.machinefusion.enableBatteryLifespan").define("enableBatteryLifespan", false);
 
             builder.push("worldgen");
-            enableTinGeneration = builder.translation("config.machinefusion.enableTinGeneration").define("enableTinGeneration", true);
-            tinGenerationWeight = builder.translation("config.machinefusion.tinGenerationWeight").defineInRange("tinGenerationWeight", 3, 1, 7);
-
-            enableAluminumGeneration = builder.translation("config.machinefusion.enableAluminumGeneration").define("enableAluminumGeneration", true);
-            aluminumGenerationWeight = builder.translation("config.machinefusion.aluminumGenerationWeight").defineInRange("aluminumGenerationWeight", 3, 1, 7);
-
-            enableLeadGeneration = builder.translation("config.machinefusion.enableLeadGeneration").define("enableLeadGeneration", true);
-            leadGenerationWeight = builder.translation("config.machinefusion.leadGenerationWeight").defineInRange("leadGenerationWeight", 2, 1, 6);
+            tinGenerationWeight = builder.translation("config.machinefusion.tinGenerationWeight").defineInRange("tinGenerationWeight", 7, 7, 13);
+            smallTinGenerationWeight = builder.translation("config.machinefusion.smallTinGenerationWeight").defineInRange("smallTinGenerationWeight", 3, 1, 7);
+            aluminumGenerationWeight = builder.translation("config.machinefusion.aluminumGenerationWeight").defineInRange("aluminumGenerationWeight", 7, 7, 13);
+            smallAluminumGenerationWeight = builder.translation("config.machinefusion.smallAluminumGenerationWeight").defineInRange("smallAluminumGenerationWeight", 3, 1, 7);
+            leadGenerationWeight = builder.translation("config.machinefusion.leadGenerationWeight").defineInRange("leadGenerationWeight", 6, 6, 12);
+            smallLeadGenerationWeight = builder.translation("config.machinefusion.smallLeadGenerationWeight").defineInRange("smallLeadGenerationWeight", 2, 1, 6);
             builder.pop();
         }
     }

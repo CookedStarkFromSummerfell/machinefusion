@@ -2,7 +2,10 @@ package dev.kalishak.machinefusion;
 
 import dev.kalishak.machinefusion.client.MachineFusionClient;
 import dev.kalishak.machinefusion.config.ConfigManager;
-import dev.kalishak.machinefusion.world.item.MFItems;
+import dev.kalishak.machinefusion.world.block.MachineFusionBlocks;
+import dev.kalishak.machinefusion.world.gen.features.MachineFusionConfiguredFeatures;
+import dev.kalishak.machinefusion.world.gen.features.MachineFusionPlacedFeatures;
+import dev.kalishak.machinefusion.world.item.MachineFusionItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.DistExecutor;
@@ -22,7 +25,10 @@ public class MachineFusion {
         DistExecutor.safeRunWhenOn(Dist.CLIENT, () -> MachineFusionClient::new);
         final IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        MFItems.register(bus);
+        MachineFusionBlocks.register(bus);
+        MachineFusionItems.register(bus);
+        MachineFusionConfiguredFeatures.register(bus);
+        MachineFusionPlacedFeatures.register(bus);
 
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, ConfigManager.COMMON_SPEC);
         ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, ConfigManager.CLIENT_SPEC);

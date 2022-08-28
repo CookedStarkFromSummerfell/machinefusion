@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "machinefusion:block/lead_block"
+    }
+  }
+}

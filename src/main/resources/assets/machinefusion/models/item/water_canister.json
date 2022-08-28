@@ -12,33 +12,27 @@
     },
     {
       "predicate": {
-        "machinefusion:partial": 0.16
+        "machinefusion:partial": 0.20
       },
       "model": "machinefusion:item/water_canister_partial_1"
     },
     {
       "predicate": {
-        "galacticraft:partial": 0.33
+        "galacticraft:partial": 0.40
       },
       "model": "machinefusion:item/water_canister_partial_2"
     },
     {
       "predicate": {
-        "galacticraft:partial": 0.5
+        "galacticraft:partial": 0.60
       },
       "model": "machinefusion:item/water_canister_partial_3"
     },
     {
       "predicate": {
-        "galacticraft:partial": 0.66
+        "galacticraft:partial": 0.80
       },
       "model": "machinefusion:item/water_canister_partial_4"
-    },
-    {
-      "predicate": {
-        "galacticraft:partial": 0.83
-      },
-      "model": "machinefusion:item/water_canister_partial_5"
     },
     {
       "predicate": {

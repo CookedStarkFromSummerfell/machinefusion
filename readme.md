@@ -7,7 +7,7 @@ It's a tech based addon to Minecraft with a bit of science-fiction stuff.
 ### Features
 * [x] Energy, Fluid, Gas and Item transfer capability
 * [x] Special items implementing given caps
-* [ ] Configuration
+* [x] Configuration
 * [ ] New ore with generation
 * [ ] Decoration blocks
 * [ ] Machines and resource storage

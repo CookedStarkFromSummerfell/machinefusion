@@ -1,0 +1,33 @@
+{
+  "itemGroup.machinefusion.items": "Machine Fusion: Itemy",
+  "itemGroup.machinefusion.blocks": "Machine Fusion: Bloki",
+  "itemGroup.machinefusion.machiness": "Machine Fusion: Maszyny",
+
+  "item.machinefusion.battery": "Bateria",
+  "item.machinefusion.infinite_battery": "Nieskończona Bateria",
+  "item.machinefusion.empty_canister": "Pusty Kanister",
+  "item.machinefusion.water_canister": "Kanister z Wodą",
+  "item.machinefusion.tin_ingot": "Sztabka Cyny",
+  "item.machinefusion.tin_nugget": "Samorodek Cyny",
+  "item.machinefusion.tin_plate": "Płytka Cyny",
+  "item.machinefusion.aluminum_ingot": "Sztabka Aluminium",
+  "item.machinefusion.aluminum_nugget": "Samorodek Aluminium",
+  "item.machinefusion.aluminum_plate": "Płytka Aluminium",
+  "item.machinefusion.lead_ingot": "Sztabka Ołowiu",
+  "item.machinefusion.lead_nugget": "Samorodek Ołowiu",
+  "item.machinefusion.lead_plate": "Płytka Ołowiu",
+
+  "block.machinefusion.tin_ore": "Złoże Cyny",
+  "block.machinefusion.deepslate_tin_ore": "Łupkowe Złoże Cyny",
+  "block.machinefusion.tin_block": "Blok Cyny",
+  "block.machinefusion.aluminum_ore": "Złoże Aluminium",
+  "block.machinefusion.deepslate_aluminum_ore": "Łupkowe Złoże Aluminium",
+  "block.machinefusion.aluminum_block": "Blok Aluminium",
+  "block.machinefusion.lead_ore": "Złoże Ołowiu",
+  "block.machinefusion.deepslate_lead_ore": "Łupkowe Złoże Ołowiu",
+  "block.machinefusion.lead_block": "Blok Ołowiu",
+
+  "tooltip.machinefusion.energy_remaining": "Pozostało %s Energii",
+  "tooltip.machinefusion.infinite": "Nieskończone",
+  "tooltip.machinefusion.creative_only": "TYLKO TRYB KREATYWNY"
+}
