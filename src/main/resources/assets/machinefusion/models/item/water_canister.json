@@ -1,0 +1,50 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "machinefusion:item/empty_canister"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "machinefusion:partial": 0.00
+      },
+      "model": "machinefusion:item/empty_canister"
+    },
+    {
+      "predicate": {
+        "machinefusion:partial": 0.16
+      },
+      "model": "machinefusion:item/water_canister_partial_1"
+    },
+    {
+      "predicate": {
+        "galacticraft:partial": 0.33
+      },
+      "model": "machinefusion:item/water_canister_partial_2"
+    },
+    {
+      "predicate": {
+        "galacticraft:partial": 0.5
+      },
+      "model": "machinefusion:item/water_canister_partial_3"
+    },
+    {
+      "predicate": {
+        "galacticraft:partial": 0.66
+      },
+      "model": "machinefusion:item/water_canister_partial_4"
+    },
+    {
+      "predicate": {
+        "galacticraft:partial": 0.83
+      },
+      "model": "machinefusion:item/water_canister_partial_5"
+    },
+    {
+      "predicate": {
+        "galacticraft:partial": 1.00
+      },
+      "model": "machinefusion:item/water_canister_partial_full"
+    }
+  ]
+}

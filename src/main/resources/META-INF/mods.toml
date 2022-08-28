@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+license = "All Rights Reserved"
+#issueTrackerURL="http://my.issue.tracker/" #optional
+
+[[mods]]
+    modId = "machinefusion"
+    version = "${file.jarVersion}"
+    displayName = "MachineFusion"
+    #updateJSONURL="http://myurl.me/"
+    #displayURL="http://example.com/"
+    #logoFile="machinefusion.png"
+    #credits="Thanks for this example mod goes to Java"
+    authors = "Kalishak"
+    description = '''
+    A mod about proccessing and electricity
+    '''
+
+[[dependencies.machinefusion]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[43,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.machinefusion]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.19.2,1.20)"
+    ordering = "NONE"
+    side = "BOTH"

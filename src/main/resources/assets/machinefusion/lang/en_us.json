@@ -1,0 +1,14 @@
+{
+  "itemGroup.machinefusion.items": "Machine Fusion: Items",
+  "itemGroup.machinefusion.blocks": "Machine Fusion: Blocks",
+  "itemGroup.machinefusion.machiness": "Machine Fusion: Machines",
+
+  "item.machinefusion.battery": "Battery",
+  "item.machinefusion.infinite_battery": "Infinite Battery",
+  "item.machinefusion.empty_canister": "Empty Canister",
+  "item.machinefusion.water_canister": "Water Canister",
+
+  "tooltip.machinefusion.energy_remaining": "Remaining Energy: %s",
+  "tooltip.machinefusion.infinite": "Infinite",
+  "tooltip.machinefusion.creative_only": "CREATIVE ONLY"
+}
