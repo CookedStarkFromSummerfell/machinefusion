@@ -62,10 +62,8 @@ public class GenericFluidCanisterItem extends AbstractFluidItem {
     @Override
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
         stack.getCapability(MachineFusionCapabilities.ITEM_FLUID_STORAGE).ifPresent(handler -> {
-            if (handler.getFluid().isSame(Fluids.EMPTY) || handler.getFluid() == Fluids.EMPTY) {
-                components.add(Component.translatable("tooltip.galacticraft.empty"));
-            } else {
-                components.add(Component.translatable("tooltip.galacticraft.fluid_remaining", Component.literal(handler.getAmount() + "/" + handler.getCapacity()).withStyle(this.fluidColorIn)));
+            if (!handler.getFluid().isSame(Fluids.EMPTY) || handler.getFluid() != Fluids.EMPTY) {
+                components.add(Component.translatable("tooltip.machinefusion.fluid_remaining", Component.literal(handler.getAmount() + "/" + handler.getCapacity()).withStyle(this.fluidColorIn)));
             }
         });
         super.appendHoverText(stack, level, components, flag);

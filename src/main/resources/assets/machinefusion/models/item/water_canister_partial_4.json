@@ -1,6 +1,6 @@
 {
-  "parent": "machinefusion:item/liquid_canister",
+  "parent": "item/generated",
   "textures": {
-    "layer1": "machinefusion:item/water_canister_partial_4"
+    "layer0": "machinefusion:item/water_canister_partial_4"
   }
 }

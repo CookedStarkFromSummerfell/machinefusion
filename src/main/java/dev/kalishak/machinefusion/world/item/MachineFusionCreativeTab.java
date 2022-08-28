@@ -10,7 +10,7 @@ public final class MachineFusionCreativeTab {
     public static final CreativeModeTab ITEMS_GROUP = new CreativeModeTab("machinefusion.items") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(MachineFusionItems.BATTERY_ITEM.get());
+            return MachineFusionItems.BATTERY_ITEM.get().getDefaultInstance();
         }
     };
 

@@ -11,13 +11,13 @@ public class ConfigManager {
     public static final Client CLIENT;
     public static class Common {
 
-        public ForgeConfigSpec.BooleanValue enableBatteryLifespan;
-        public ForgeConfigSpec.IntValue tinGenerationWeight;
-        public ForgeConfigSpec.IntValue smallTinGenerationWeight;
-        public ForgeConfigSpec.IntValue aluminumGenerationWeight;
-        public ForgeConfigSpec.IntValue smallAluminumGenerationWeight;
-        public ForgeConfigSpec.IntValue leadGenerationWeight;
-        public ForgeConfigSpec.IntValue smallLeadGenerationWeight;
+        public static ForgeConfigSpec.BooleanValue enableBatteryLifespan;
+        public static ForgeConfigSpec.IntValue tinGenerationWeight;
+        public static ForgeConfigSpec.IntValue smallTinGenerationWeight;
+        public static ForgeConfigSpec.IntValue aluminumGenerationWeight;
+        public static ForgeConfigSpec.IntValue smallAluminumGenerationWeight;
+        public static ForgeConfigSpec.IntValue leadGenerationWeight;
+        public static ForgeConfigSpec.IntValue smallLeadGenerationWeight;
 
 
         public Common(ForgeConfigSpec.Builder builder) {
@@ -40,8 +40,8 @@ public class ConfigManager {
         public static ForgeConfigSpec.BooleanValue disableAlphaWarning;
 
         public Client(ForgeConfigSpec.Builder builder) {
-            disable3dModels = builder.translation("config.machinefusion.disable3dModels").define("disable3dModels", false);
-            disableAlphaWarning = builder.translation("config.machinefusion.disableAlphaWarning").define("disableAlphaWarning", false);
+            disable3dModels = builder.translation("config.machinefusion.disable3dModels").worldRestart().define("disable3dModels", false);
+            disableAlphaWarning = builder.translation("config.machinefusion.disableAlphaWarning").worldRestart().define("disableAlphaWarning", false);
         }
     }
 

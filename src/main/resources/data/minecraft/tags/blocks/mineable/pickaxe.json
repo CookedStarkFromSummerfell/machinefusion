@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "machinefusion:tin_ore",
+    "machinefusion:deepslate_tin_ore",
+    "machinefusion:tin_block",
+    "machinefusion:aluminum_ore",
+    "machinefusion:deepslate_aluminum_ore",
+    "machinefusion:aluminum_block",
+    "machinefusion:lead_ore",
+    "machinefusion:deepslate_lead_ore",
+    "machinefusion:lead_block"
+  ]
+}

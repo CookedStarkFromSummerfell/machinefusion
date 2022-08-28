@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
   "biomes": "#minecraft:is_overworld",
-  "features": "machinefusion:ore_lead",
-  "step": "underground_biomes"
+  "features": "machinefusion:ore_aluminum",
+  "step": "underground_ores"
 }

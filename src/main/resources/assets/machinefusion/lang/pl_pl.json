@@ -1,7 +1,7 @@
 {
   "itemGroup.machinefusion.items": "Machine Fusion: Itemy",
   "itemGroup.machinefusion.blocks": "Machine Fusion: Bloki",
-  "itemGroup.machinefusion.machiness": "Machine Fusion: Maszyny",
+  "itemGroup.machinefusion.machines": "Machine Fusion: Maszyny",
 
   "item.machinefusion.battery": "Bateria",
   "item.machinefusion.infinite_battery": "Nieskończona Bateria",
@@ -28,6 +28,8 @@
   "block.machinefusion.lead_block": "Blok Ołowiu",
 
   "tooltip.machinefusion.energy_remaining": "Pozostało %s Energii",
+  "tooltip.machinefusion.fluid_remaining": "Pozostało: %s Płynu",
+  "tooltip.machinefusion.empty": "Pusty",
   "tooltip.machinefusion.infinite": "Nieskończone",
   "tooltip.machinefusion.creative_only": "TYLKO TRYB KREATYWNY"
 }
