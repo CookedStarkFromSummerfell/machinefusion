@@ -1,8 +1,8 @@
 package dev.kalishak.machinefusion.world.item;
 
 import dev.kalishak.machinefusion.References;
-import dev.kalishak.machinefusion.api.capability.FluidStorage;
-import dev.kalishak.machinefusion.api.capability.ItemFluidStorage;
+import dev.kalishak.machinefusion.api.capability.liquid.FluidStorage;
+import dev.kalishak.machinefusion.api.capability.liquid.ItemFluidStorage;
 import dev.kalishak.machinefusion.api.capability.MachineFusionCapabilities;
 import dev.kalishak.machinefusion.world.fluid.LongFluidStack;
 import net.minecraft.core.Direction;

@@ -24,8 +24,8 @@ public class MachineFusion {
     public static final Logger LOGGER = LogManager.getLogger();
 
     public MachineFusion() {
-        DistExecutor.safeRunWhenOn(Dist.CLIENT, () -> MachineFusionClient::new);
         final IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+        DistExecutor.safeRunWhenOn(Dist.CLIENT, () -> () -> new MachineFusionClient(bus));
 
         MachineFusionBlocks.register(bus);
         MachineFusionItems.register(bus);

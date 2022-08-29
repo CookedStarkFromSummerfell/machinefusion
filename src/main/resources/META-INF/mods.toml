@@ -9,7 +9,7 @@ license = "All Rights Reserved"
     displayName = "MachineFusion"
     #updateJSONURL="http://myurl.me/"
     #displayURL="http://example.com/"
-    #logoFile="machinefusion.png"
+    logoFile="machinefusion.png"
     #credits="Thanks for this example mod goes to Java"
     authors = "Kalishak"
     description = '''
@@ -29,3 +29,14 @@ license = "All Rights Reserved"
     versionRange = "[1.19.2,1.20)"
     ordering = "NONE"
     side = "BOTH"
+
+[[dependencies.machinefusion]]
+    modId = "configured"
+    mandatory = false
+    versionRange = "[1.5,)"
+    ordering = "NONE"
+    side = "CLIENT"
+
+[modproperties.machinefusion]
+    catalogueImageIcon="machinefusion.png"
+    configuredBackground="minecraft:textures/block/stone.png"

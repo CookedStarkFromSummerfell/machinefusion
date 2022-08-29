@@ -31,5 +31,16 @@
   "tooltip.machinefusion.fluid_remaining": "Pozostało: %s Płynu",
   "tooltip.machinefusion.empty": "Pusty",
   "tooltip.machinefusion.infinite": "Nieskończone",
-  "tooltip.machinefusion.creative_only": "TYLKO TRYB KREATYWNY"
+  "tooltip.machinefusion.creative_only": "TYLKO TRYB KREATYWNY",
+
+  "config.machinefusion.enableBatteryLifespan": "Włącz Żywotność Baterii, im dłużej używasz jednej baterii tym bardziej pomniejsza się jej pojemność.",
+  "config.machinefusion.tinGenerationWeight": "Wielkość Złóż Cyny.",
+  "config.machinefusion.smallTinGenerationWeight": "Wielkość małego Złoża Cyny.",
+  "config.machinefusion.aluminumGenerationWeight": "Wielkość Złóż Glinu.",
+  "config.machinefusion.smallAluminumGenerationWeight": "Wielkość małego Złoża Glinu.",
+  "config.machinefusion.leadGenerationWeight": "Wielkość Złóż Ołowiu.",
+  "config.machinefusion.smallLeadGenerationWeight": "Wielkość małego Złoża Ołowiu.",
+  "config.machinefusion.disable3dModels": "Wyłącz modele 3D jeżeli wolisz klasyczny wygląd 2D.",
+  "config.machinefusion.disableAlphaWarning": "Wyłącz ostrzeżenie o alphie.",
+  "config.machinefusion.preferredTemperature": "Możesz wybrać preferowaną skale temperatur."
 }

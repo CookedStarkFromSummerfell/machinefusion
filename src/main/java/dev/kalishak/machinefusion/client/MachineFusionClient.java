@@ -7,7 +7,9 @@ import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 
@@ -16,6 +18,10 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 public class MachineFusionClient {
 
     private static final ResourceLocation PARTIAL_ID = new ResourceLocation(References.MOD_ID, "partial");
+
+    public MachineFusionClient(final IEventBus bus) {
+        bus.addListener(this::setupClient);
+    }
 
     @SubscribeEvent
     public void setupClient(final FMLClientSetupEvent event) {

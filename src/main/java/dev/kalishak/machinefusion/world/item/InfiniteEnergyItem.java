@@ -1,7 +1,7 @@
 package dev.kalishak.machinefusion.world.item;
 
 import dev.kalishak.machinefusion.References;
-import dev.kalishak.machinefusion.api.capability.EnergyStorage;
+import dev.kalishak.machinefusion.api.capability.energy.EnergyStorage;
 import dev.kalishak.machinefusion.api.capability.MachineFusionCapabilities;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;

@@ -1,8 +1,8 @@
 package dev.kalishak.machinefusion.world.item;
 
 import dev.kalishak.machinefusion.References;
-import dev.kalishak.machinefusion.api.capability.EnergyStorage;
-import dev.kalishak.machinefusion.api.capability.ItemEnergyStorage;
+import dev.kalishak.machinefusion.api.capability.energy.EnergyStorage;
+import dev.kalishak.machinefusion.api.capability.energy.ItemEnergyStorage;
 import dev.kalishak.machinefusion.api.capability.MachineFusionCapabilities;
 import dev.kalishak.machinefusion.util.ClientUtil;
 import net.minecraft.core.Direction;

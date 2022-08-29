@@ -31,5 +31,16 @@
   "tooltip.machinefusion.fluid_remaining": "Remaining Fluid: %s",
   "tooltip.machinefusion.empty": "Empty",
   "tooltip.machinefusion.infinite": "Infinite",
-  "tooltip.machinefusion.creative_only": "CREATIVE ONLY"
+  "tooltip.machinefusion.creative_only": "CREATIVE ONLY",
+
+  "config.machinefusion.enableBatteryLifespan": "Enables Battery lifespan, longer you use the battery it's capacity decrease. (WIP IGNORE)",
+  "config.machinefusion.tinGenerationWeight": "Size of Tin Ore generation.",
+  "config.machinefusion.smallTinGenerationWeight": "Size of Small Tin Ores generation.",
+  "config.machinefusion.aluminumGenerationWeight": "Size of Aluminum Ore generation.",
+  "config.machinefusion.smallAluminumGenerationWeight": "Size of Small Aluminum Ores generation.",
+  "config.machinefusion.leadGenerationWeight": "Size of Lead Ore generation.",
+  "config.machinefusion.smallLeadGenerationWeight": "Size of Small Lead Ores generation.",
+  "config.machinefusion.disable3dModels": "Disable 3d models once you prefer the 2d ones.",
+  "config.machinefusion.disableAlphaWarning": "Disable alpha mod warning",
+  "config.machinefusion.preferredTemperature": "Here you can choose what temperature scale do you want to use."
 }

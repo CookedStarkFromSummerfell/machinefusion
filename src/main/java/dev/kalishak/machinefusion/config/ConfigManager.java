@@ -1,5 +1,6 @@
 package dev.kalishak.machinefusion.config;
 
+import dev.kalishak.machinefusion.api.capability.temperature.TemperatureType;
 import net.minecraftforge.common.ForgeConfigSpec;
 import org.apache.commons.lang3.tuple.Pair;
 
@@ -38,10 +39,12 @@ public class ConfigManager {
 
         public static ForgeConfigSpec.BooleanValue disable3dModels;
         public static ForgeConfigSpec.BooleanValue disableAlphaWarning;
+        public static ForgeConfigSpec.EnumValue<TemperatureType> preferredTemperature;
 
         public Client(ForgeConfigSpec.Builder builder) {
             disable3dModels = builder.translation("config.machinefusion.disable3dModels").worldRestart().define("disable3dModels", false);
             disableAlphaWarning = builder.translation("config.machinefusion.disableAlphaWarning").worldRestart().define("disableAlphaWarning", false);
+            preferredTemperature = builder.translation("config.machinefusion.preferredTemperature").defineEnum("preferredTemperature", TemperatureType.KELVIN);
         }
     }
 
